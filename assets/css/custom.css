@@ -1,0 +1,28 @@
+.form-control {
+    background-color: #353A46;
+    border: 1px solid #353A46;
+    color: #FFF;
+    border-radius: 10px;
+    padding: 12px 14px;
+    border-radius: .25rem;
+}
+
+
+.form-control:focus {
+    background-color: #353A46;
+    border: 1px solid #353A46;
+    border-color: #80bdff !important;
+    box-shadow: 0 0 5px rgba(128, 189, 255, 0.5);
+    color: #FFF;
+}
+
+
+.form-control::placeholder {
+    color:rgba(255, 255, 255, 0.55);
+
+}
+
+.btn {
+    border-radius: .25rem;
+    padding: 12px 14px;
+}
