@@ -18,6 +18,11 @@ $("#btn_gravar").on("click",function(){
     })
 })
 
+$("#btn_salvar").on("click", function(){
+    history.back();
+});
+
+
 $("#btn_atualizar").on("click",function(){
     var txt_nome = $("#nome").val();
     var txt_email = $("#email").val();

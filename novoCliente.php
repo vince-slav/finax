@@ -21,14 +21,12 @@
                 <img id="img-logo" src="./assets/img/logo-blue.png" />
             </div>
             <form method="post" class="d-flex flex-column align-items-center gap-4">
+                <input placeholder="Nome" class="mb-2 w-75 form-control" type="text" id="nome" name="nome" />
                 <input placeholder="Email" class="mb-2 w-75 form-control" type="email" id="email" name="nome" />
                 <input placeholder="Senha" class="mb-0 w-75 form-control" type="password" id="pass" name="email" />
-                <div class="w-75 d-flex justify-content-start">
-                    <a href="novoCliente.php" class="link-primary">Não tenho cadastro</a>
-                </div>
-                <div class="w-75 d-flex justify-content-between">
-                    <button type="button" class="btn btn-primary"><span class="me-2"><i class="fab fa-google"></i></span><span class="mx-3">Login com o Google</span></button>
-                    <button class="btn btn-primary" type="button" id="btn_gravar">Entrar</button>
+                <input placeholder="Repita a senha" class="mb-0 w-75 form-control" type="password" id="confPass" name="email" />
+                <div class="w-75 d-flex justify-content-end">
+                    <button class="btn btn-primary" type="button" id="btn_salvar">Salvar</button>
                 </div>
             </form>
             <div class="copyright" style="text-align:center; font-size:0.85rem; color:#9CA3AF;">

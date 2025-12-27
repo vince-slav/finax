@@ -5,14 +5,20 @@
     font-style: san-serif;
 }
 
+
+body {
+    background-color: rgb(15, 23, 42);
+}
+
 ul {
     text-decoration: none;
 }
 
 a {
     text-decoration: none;
+    cursor: pointer;
 }
-
+/* LOGIN */
 .container-login {
     height: 100vh;
 }
@@ -29,7 +35,7 @@ a {
 .banner-login::after {
     position: absolute;
     content: '';
-    background: rgba(0, 0, 0, .3);
+    background: #0000004d;
     top: 0;
     left: 0;
     width: 100%;
@@ -41,7 +47,7 @@ a {
 .form-login {
     width: 40%;
     padding: 30px;
-    background-color: #0F172A;
+    background-color: rgb(15, 23, 42);
     position: relative;
 }
 
@@ -57,3 +63,29 @@ a {
 #img-logo {
     height: 100%;
 }
+/* FIMLOGIN */
+
+
+/* CADASTRO CLIENTE */
+
+/* .container-cad {
+    width: 100vw;
+    height: 100vh;
+    background: url('../img/back.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+.container-cad::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(15, 23, 42, .9);
+    position: absolute;
+    top: 0;
+    left: 0;
+} */
+/* FIM CADASTRO CLIENTE */
